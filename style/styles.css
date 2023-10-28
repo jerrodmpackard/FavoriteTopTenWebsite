@@ -8,46 +8,58 @@
   src: url(../assets/Marvel-Regular.ttf);
 }
 
+@font-face {
+  font-family: metalMania;
+  src: url(../assets/MetalMania-Regular.ttf);
+}
+
 body {
-    font-family: marvelFont;
-    /* background-color: black; */
-    background-image: url("../assets/Image\ 10-26-23\ at\ 8.00\ PM.JPG");
-    background-attachment: fixed;
+  font-family: marvelFont;
+  background-image: url("../assets/Image\ 10-26-23\ at\ 8.00\ PM.JPG");
+  background-attachment: fixed;
 }
 
 .blackBackground {
-    background-color: black;
+  background-color: black;
 }
 
 .whiteText {
-    color:white;
-    background-color: #e6161b;
-    
+  color: white;
+  background-color: #e6161b;
 }
 
 .redText {
-    color: #e6161b;
+  color: #e6161b;
 }
 
 h1 {
-    font-size: 96px;
+  /* font-size: 96px; */
+  font-size: calc(64px + 0.390625vw);
 }
 
 h2 {
-    font-size: 96px;
+  /* font-size: 96px; */
+  font-size: calc(56px + 0.390625vw);
 }
 
 p {
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: calc(15px + 0.390625vw);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: calc(15px + 0.390625vw);
 }
 
 h3 {
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .changeFont {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.villainFont {
+  font-family: metalMania;
 }
